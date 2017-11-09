@@ -1,0 +1,10 @@
+nternally determines how much CPU time a process is allowed to
+consume
+´ The administrator can set this value manfully. It is called the nice value. It ranges
+from -20 (highest priority) to 19 (lowest priority)
+´ By default, the child process inherits its parent’s nice value
+´ A normal user can use the renice command to lower the priority of his own
+process (positive value). But he cannot use it to increase it’s priority even to it’s
+original value. The superuser can place any nice value on any process on the
+system.
+renice value pid
