@@ -1,0 +1,4 @@
+hai this is a new for 
+git repository
+this is having nothing date
+this is the third file in repository
